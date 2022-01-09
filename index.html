@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Sign Up Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="head-text">
+            Already have an intuit account?<br>
+            <a href="#">I forgot my UserId or Password</a>
+        </div>
+        <div class="head-sign">
+            <button>
+                <i class="material-icons">lock_outline</i>
+                <span>&nbspSign In</span>
+            </button>
+        </div>
+    </header>
+
+    <section class="logo-container">
+        <a href="#" class="logo"></a>
+    </section>
+
+    <section class="product-container">
+        <ul>
+            <li>
+                <img src="img/mint.svg" alt="mint-icon">
+                <a href="https://www.mint.com">mint</a>
+            </li>
+            <li>
+                <img src="img/quickbooks.svg" alt="quickbooks-icon">
+                <a href="https://quickbooks.intuit.com/">quickbooks</a>
+            </li>
+            <li>
+                <img src="img/turbotax.svg" alt="turbotax-icon">
+                <a href="https://www.turbotax.intuit.com">turbotax</a>
+            </li>
+        </ul>
+    </section>
+
+    <main>
+
+        <section class="form-header">
+            <h2>Create an Intuit account</h2>
+            <p>One account for everything Intuit, including Mint.
+                <a href="#">Learn more</a>
+            </p>
+        </section>
+        <form action="post">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email">
+
+            <label for="phone">Phone(recommended)</label>
+            <input type="tel" name="phone" id="phone"> Standard call, message, or data rates may apply.
+
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password">
+
+            <!--label for="confirm-password">Confirm password</label>
+                    <input type="password" name="confirm-password" id="confirm-password"-->
+
+            <button name="sbutton">
+                <i class="material-icons">lock_outline</i>
+                <span>&nbsp Create Account</span>
+            </button>
+
+        </form>
+        <section class="form-footer">
+            <div class="form-footer-agree">
+                <p><em>By Clicking Create Account , you agree to our <a href="#">Terms</a> and have read and
+                        acknowledge our <a href="#">Global Privacy Statement.</a></em></p>
+                <p><strong><em>Updated on December 3, 2020</em></strong></p>
+            </div>
+            <div class="form-footer-cap">
+                Invisible reCAPTCHA by Google <a href="#">Privacy Policy</a> and <a href="#">Terms of Use.</a>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="foot-link">
+            <a href="#">Legal</a>&nbsp
+            <a href="#">Privacy</a>&nbsp
+            <a href="#">Security</a>
+        </div>
+        <div class="foot-copyright">
+            © 2022 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc. <br>Terms and conditions, features, support, pricing, and service options subject to change without notice.
+        </div>
+    </footer>
+</body>
+
+</html>

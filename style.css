@@ -1,0 +1,182 @@
+@font-face {
+    font-family: AvenirNext;
+    src: url(./fonts/AvenirNextLTPro-Regular.otf);
+}
+
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: AvenirNext, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: #ECEEF1;
+    font-size: 85%;
+    color: rgb(83, 80, 80)
+}
+
+a:link,
+a:visited {
+    color: #52A8EC;
+    text-decoration: none;
+}
+
+
+/* HEADER */
+
+header {
+    text-align: right;
+    height: 80px;
+}
+
+.head-text,
+.head-sign {
+    display: inline-block;
+}
+
+.head-text {
+    font-size: 12px;
+}
+
+
+/* CENTER LOGO */
+
+.logo-container a.logo {
+    display: block;
+    background-image: url(img/ecosystem_logos_new@2x-9448e6be.png);
+    background-size: 562px 83px;
+    width: 118px;
+    height: 35px;
+    margin: 0 auto;
+}
+
+.product-container {
+    display: block;
+    width: 320px;
+    margin: 0 auto;
+}
+
+.product-container ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-inline-start: 0;
+}
+
+.product-container li {
+    display: flex;
+    align-items: center;
+}
+
+.product-container img {
+    width: 23px;
+    height: 23px;
+    display: inline-block;
+    margin-right: 4px;
+    position: relative;
+}
+
+.product-container a {
+    color: grey;
+    font-size: 20px;
+}
+
+
+/* MAIN */
+
+main {
+    text-align: center;
+    border: 1px solid #c7c7c7;
+    box-sizing: border-box;
+    width: 380px;
+    margin: 0 auto;
+    /*padding: 20px 30px;*/
+    background: #fff;
+}
+
+main .form-header {
+    padding: 16px 30px;
+}
+
+main form {
+    display: block;
+    text-align: left;
+    padding: 0 30px;
+}
+
+main label {
+    display: block;
+    margin: 10px 0 10px 0;
+}
+
+main input {
+    width: 100%;
+    display: block;
+    border-radius: 2px;
+    border: 1px solid #c7c7c7;
+    font-size: 20px;
+    margin-bottom: 20px;
+    padding: 4px;
+}
+
+main input:focus {
+    border: 1px solid #52A8EC;
+    outline: none;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(82, 168, 236, 0.6);
+}
+
+main input[type="password"] {
+    background: url("img/unlock.png") no-repeat;
+    background-size: 24px 24px;
+    background-position: bottom 4px right 10px;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #0077c5;
+    border-radius: 4px;
+    border-color: #0077c5;
+    background-color: #0077c5;
+    outline: none;
+    color: #fff;
+    height: 40px;
+    font-size: medium;
+}
+
+.head-sign button {
+    width: 100px;
+    font-size: smaller;
+    margin-right: 20px;
+}
+
+form button {
+    width: 100%;
+}
+
+.form-footer-agree {
+    padding: 16px 30px;
+    font-size: 12px;
+}
+
+.form-footer-cap {
+    display: block;
+    background: #ECEEF1;
+    font-size: 10px;
+    padding: 20px 0;
+}
+
+
+/* FOOTER */
+
+footer {
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 12px;
+    margin-top: 20px;
+    line-height: 2;
+}
